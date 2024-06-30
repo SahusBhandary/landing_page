@@ -1,0 +1,153 @@
+*{
+    font: "roboto";
+    margin: 0;
+    padding: 0;
+}
+.sectionOne{
+    background-color: #1F2937;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.headerLogo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerLink, .secondaryHero{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links{
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.heroMainText{
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+}
+
+.sectionTwo{
+    background-color: #1F2937;
+    display: flex;
+    padding-left: 200px;
+    justify-content: space-between;
+    padding-right: 200px;
+    gap: 200px;
+    padding-bottom: 20px;
+}
+
+.signUp{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 50px;
+    width: 100px;
+}
+
+.leftText{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.informationHeader{
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.secThreeImages{
+    display: flex;
+    gap: 50px;
+}
+
+.secThreeIndividual{
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.sectionThreeText{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: #1F2937;
+}
+
+.individualText{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.sectionFour{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.writer{
+    display: flex;
+    justify-content: end;
+}
+
+.secFiveBox{
+    display: flex;
+    justify-content: center;
+}
+
+.sectionFive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    width: 300px;
+    padding: 50px;
+    background-color: #3882F6;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.callToAction{
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.signUpText{
+    color: #F9FAF8;
+}
+
+.secFiveButton{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: #F9FAF8;
+    width: 110px;
+}
+
